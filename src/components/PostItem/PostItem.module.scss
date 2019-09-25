@@ -1,0 +1,40 @@
+@import    "../../../node_modules/bootstrap/scss/bootstrap";
+
+.post__item {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+   a {
+       color: #000000;
+       vertical-align: middle;
+   }
+    h2 {
+        font-weight: bold;
+    }
+    
+    p,
+    p a {
+        color: rgba(0,0,0,0.5);
+    }
+    
+    p a {
+        font-weight: 500;
+        margin-left: 10px;
+        
+    }
+    
+}
+
+
+
+
+//
+//.btn {
+//    display: inline-block; /* Строчно-блочный элемент */
+//    background: #5f9d7b; /* Серый цвет фона */
+//    color: #fff; /* Белый цвет текста */
+//    //padding: 1rem 1.5rem; /* Поля вокруг текста */
+//    text-decoration: none; /* Убираем подчёркивание */
+//    border-radius: 3px; /* Скругляем уголки */
+//    transition: .4s;
+//}
